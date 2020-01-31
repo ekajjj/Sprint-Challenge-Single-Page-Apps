@@ -35,7 +35,7 @@ export default function CharacterList() {
   return (
 
   <section className="character-list">
-    <h2>TODO: `array.map()` over your state here!</h2>
+    <h2>Characters</h2>
     <SearchForm
       placeholder='Search for characters'
       value={search}
