@@ -46,6 +46,9 @@ export default function CharacterList() {
         key={character.id}
         name={character.name}
         image={character.image}
+        species={character.species}
+        gender={character.gender}
+        status={character.status}
       />
     ))}
   </section>
