@@ -29,6 +29,9 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 > Answer:
 
+The benefit of client-side routing is that we can create single page applications instead of having a site with multiple URLs or endpoints. Since React is largely
+built for UI and user experience, this greatly benefits our ability to create a simplistic yet sophisticated app.
+
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
