@@ -13,8 +13,8 @@ import {Button} from 'reactstrap';
 export default function App() {
   return (
     <main>
-      <section className="navTop">
       <Header />
+      <section className="navTop">
       <Button><Link to='/'>Home</Link></Button>
       <Button><Link to='/characters'>Characters</Link></Button>
       <Route exact path='/' component={WelcomePage}/>

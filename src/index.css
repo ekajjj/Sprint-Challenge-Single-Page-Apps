@@ -36,6 +36,8 @@ main {
 
 header h1 {
   text-align: center;
+  font-size: 4rem;
+  text-decoration: underline;
 }
 
 .search-form {
@@ -57,4 +59,9 @@ header h1 {
 .welcome-page{
 justify-content: center;
 display: flex;
+}
+.navTop{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
