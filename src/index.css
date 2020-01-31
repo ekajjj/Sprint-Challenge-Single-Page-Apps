@@ -37,3 +37,24 @@ main {
 header h1 {
   text-align: center;
 }
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.character-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.charCard{
+  padding: 20px;
+}
+
+.welcome-page{
+justify-content: center;
+display: flex;
+}

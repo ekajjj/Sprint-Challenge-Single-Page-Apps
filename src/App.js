@@ -3,6 +3,7 @@ import Header from "./components/Header.js";
 import CharacterList from "./components/CharacterList";
 import WelcomePage from "./components/WelcomePage";
 import { Route, Link } from 'react-router-dom';
+import {Button} from 'reactstrap';
 
 
 
@@ -12,11 +13,13 @@ import { Route, Link } from 'react-router-dom';
 export default function App() {
   return (
     <main>
+      <section className="navTop">
       <Header />
-      <Link to='/'>Home</Link>
-      <Link to='/characters'>Characters</Link>
+      <Button><Link to='/'>Home</Link></Button>
+      <Button><Link to='/characters'>Characters</Link></Button>
       <Route exact path='/' component={WelcomePage}/>
       <Route path='/characters' component={CharacterList}/>
+      </section>
     </main>
   );
 }
